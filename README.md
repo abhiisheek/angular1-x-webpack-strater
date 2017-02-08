@@ -11,7 +11,7 @@ Key Points :
   3. All scss/css are bundle into a separate files *app.css*(for application specific styles) and *vendor.css*(for third party styles) to achieve parallel loading of styles along with js.
 
   4. For unit tests *testContext.js* file will be used, which prepares and bundles all the files required for unit testing using Webpack and karma.
-  
+
 
 # Setup
 
@@ -48,7 +48,7 @@ Key Points :
 
     Sample Document:
 
-    ![alt text]("Sample ES Doc")
+    ![alt text](https://raw.githubusercontent.com/abhiisheek/angular1-x-webpack-strater/master/screen_shots/sample_doc.PNG "Sample ES Doc")
 
 
 # Tools & Frameworks Used
