@@ -1,0 +1,8 @@
+node_modules
+npm-debug.log
+karma_html
+coverage
+dist
+docs
+.idea
+debug.log

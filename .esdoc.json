@@ -1,0 +1,7 @@
+{
+  "source": "./app",
+  "destination": "./docs",
+  "excludes": ["\\.config\\.(js|es6)$", "\\.spec\\.js$"],
+  "unexportIdentifier": true,
+  "title": "Angular 1.x and Webpack 2 starter"
+}
