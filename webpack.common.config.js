@@ -84,8 +84,12 @@ export default {
       },
       {
         test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
-        use: 'url-loader?limit=10000&mimetype=image/svg+xml'
-      }
+        use: 'url-loader?limit=10000'
+      },
+	  {
+		  test: /\.(png|jpg|jpeg|gif)$/,
+          loader: 'url-loader?limit=10000'
+	  }
     ]
   }
 }
