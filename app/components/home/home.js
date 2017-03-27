@@ -1,4 +1,5 @@
 /* global angular */
+import webpackAngular from '../../images/webpackAngular.png';
 import './home.scss';
 
 /**
@@ -11,6 +12,7 @@ class HomeController {
    */
   constructor($timeout) {
     $timeout(() => this.name= "Home View", 0);
+    this.webpackAngular = webpackAngular;
   }
 }
 
